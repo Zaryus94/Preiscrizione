@@ -1,0 +1,72 @@
+  /* Background image */
+body{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+  /* Infobox */
+.infobox{
+  color: rgb(33,213,0);
+  display: inline;
+  width: 1175px;
+  height: 835px;
+  border-radius: 25px;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+
+  /* Lim logo */
+.clrlogo{
+  width: 250px;
+  display: flex;
+  position: relative;
+  padding: 8% 10% 0 39%;
+}
+
+h1 {
+padding: 0 0 0 32%;
+
+}
+
+/* Pulsanti */
+.bottoni {
+margin-left: 300px;
+padding: 0 10% 0 10%;
+width: 325px;
+height: 21px;
+background-color:  rgb(33,213,0);
+}
+
+  /* Contenuto */
+.fontcolor{
+ color: white;
+ padding: 0 0 0 10%;
+}
+
+  /* Barre stato carica */
+.arancione {
+  width: 375px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(255,165,0);
+}
+
+.verde{
+  width: 700px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(33,213,0);
+
+}
+
+.rossa{
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(178,0,0);
+
+}
